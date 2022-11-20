@@ -43,5 +43,4 @@ git clone -b luci https://github.com/xiaorouji/openwrt-passwall package/passwall
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/adguardhome package/adguardhome
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-adguardhome package/luci-app-adguardhome
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
-
-
+git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
