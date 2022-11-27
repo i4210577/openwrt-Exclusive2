@@ -20,14 +20,14 @@ curl -fsSL  https://raw.githubusercontent.com/firkerword/KPR/main/cus_config.yam
 sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' package/base-files/files/etc/sysctl.conf
 # sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 # rm -rf ./feeds/luci/applications/luci-app-qbittorrent
-rm -rf ./feeds/luci/applications/luci-app-serverchan
+#rm -rf ./feeds/luci/applications/luci-app-serverchan
 # rm -rf ./package/diy-ziyong/adguardhome
 #rm -rf ./feeds/packages/net/adguardhome
 #rm -rf ./feeds/packages/net/smartdns
 #rm -rf ./feeds/packages/net/mosdns
-rm -rf ./feeds/luci/luci-theme-argon
-rm -rf ./package/openwrt-passwall/v2ray-geodata
-rm -rf ./package/ssr/v2ray-geodata
+#rm -rf ./feeds/luci/luci-theme-argon
+#rm -rf ./package/openwrt-passwall/v2ray-geodata
+#rm -rf ./package/ssr/v2ray-geodata
 #rm -rf .package/sirpdboy-package/smartdns
 #rm -rf .package/sirpdboy-package/adguardhome
 #rm -rf .package/sirpdboy-package/luci-app-dockerman
